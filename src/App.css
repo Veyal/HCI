@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
+  animation: App-logo-spin infinite 900ms linear;
   height: 40vmin;
 }
 
@@ -14,7 +14,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(30px + 2vmin);
   color: white;
 }
 
@@ -29,4 +29,33 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.HowToPlayTitle{
+  color: #718fc8;
+  margin: 10vmin;
+}
+.HowToPlayContainer{
+  display: flex;
+  flex-direction: row;
+}
+
+.HowToPlayImageContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3vmin;
+  height: auto;
+  width: auto;
+}
+
+.myThumbnailText{
+  font-size: medium;
+  margin: 2vmin;
+}
+.myButton{
+  margin-top: auto;
+  margin: calc(20px + 2vmin);
+  width: calc(100px + 2vmin);
+  height: calc(50px + 2vmin);
 }

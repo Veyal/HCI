@@ -1,0 +1,53 @@
+.App {
+    text-align: center;
+  }
+  
+  .logo {
+    margin-top: 5vmin;
+    height: 40vmin;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(30px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  
+  .HowToPlayTitle{
+    color: #718fc8;
+    margin: 10vmin;
+  }
+  .HowToPlayContainer{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .HowToPlayImageContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3vmin;
+    height: auto;
+    width: auto;
+  }
+  
+  .myThumbnailText{
+    font-size: medium;
+    margin: 2vmin;
+  }
+  .myButton{
+    margin-top: auto;
+    margin: calc(20px + 2vmin);
+    width: calc(100px + 2vmin);
+    height: calc(50px + 2vmin);
+  }
